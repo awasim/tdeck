@@ -7,7 +7,11 @@ TARGET = tdeck
 INCLUDEPATH += .
 
 # Input
-HEADERS += cookiejar.h
-SOURCES += tdeck.cpp
-QT += widgets webkit webkitwidgets
+HEADERS += cookiejar.h \
+    myviewview.h \
+    mywebpage.h
+SOURCES += tdeck.cpp \
+    myviewview.cpp \
+    mywebpage.cpp
+QT += widgets webkit webenginewidgets
 ICON = tdeck.icns
