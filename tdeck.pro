@@ -7,7 +7,7 @@ TARGET = tdeck
 INCLUDEPATH += .
 
 # Input
-HEADERS += cookiejar.h \
+HEADERS += \
     myviewview.h \
     mywebpage.h
 SOURCES += tdeck.cpp \
